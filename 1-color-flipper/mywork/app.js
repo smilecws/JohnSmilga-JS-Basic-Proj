@@ -13,4 +13,7 @@ btn.addEventListener('click', function(){
 
 function getRandomNumber(){
   return Math.floor(Math.random()*colors.length);
+  // Math.random() = 0<x<1 random number
+  // colors.lentgth = 4
+  // Math.floor up and down
 }
