@@ -16,4 +16,6 @@ function getRandomNumber(){
   // Math.random() = 0<x<1 random number
   // colors.lentgth = 4
   // Math.floor up and down
+
+  // this is changing
 }
