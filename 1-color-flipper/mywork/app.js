@@ -1,6 +1,6 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
-const btn = document.getElementById("btn");
-const color = document.querySelector(".color");
+// const btn = document.getElementById("btn");
+const colorss = document.querySelectorAll(".color");
 
 btn.addEventListener('click', function(){
   // get random number between 0-3
@@ -8,7 +8,10 @@ btn.addEventListener('click', function(){
   console.log(randomNumber);
 
   document.body.style.backgroundColor = colors[randomNumber]
+  colorss.forEach((color) => {
   color.textContent = colors[randomNumber];
+  // Change content of color class
+})
 });
 
 function getRandomNumber(){
@@ -17,5 +20,4 @@ function getRandomNumber(){
   // colors.lentgth = 4
   // Math.floor up and down
 
-  // this is changing
 }
