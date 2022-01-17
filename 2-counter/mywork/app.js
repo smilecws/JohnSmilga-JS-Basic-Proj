@@ -7,6 +7,7 @@ const btns = document.querySelectorAll('.btn');
 
 // console.log(btns);
 btns.forEach(function(btn){
+  // forEach() calls a function for each element in an array
   btn.addEventListener('click', function(e){
     const styles = e.currentTarget.classList;
     if (styles.contains('decrease')){
