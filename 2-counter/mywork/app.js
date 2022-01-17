@@ -1,11 +1,14 @@
 // set initial count
 let count = 0;
 
-// select buttons and buttons
+// select value and buttons
 const value = document.querySelector('#value');
 const btns = document.querySelectorAll('.btn');
+// document.querySelector('.btn') = <button class="btn decrease">decrease</button> ;;; seaerch only one
+// const btns = document.querySelectorAll('.btn');
+// return NodeList(3) [button.btn.decrease, button.btn.reset, button.btn.increase]
 
-// console.log(btns);
+console.log(btns);
 btns.forEach(function(btn){
   // forEach() calls a function for each element in an array
   btn.addEventListener('click', function(e){
