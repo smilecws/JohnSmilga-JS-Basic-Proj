@@ -5,6 +5,7 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 // The querySelector() method returns the first element that matches a specified CSS selector(s) in the document.
 
+console.log(btn)
 btn.addEventListener('click', function(){
   // get random number between 0-3
   // The addEventListener() method attaches an event handler to the document.
