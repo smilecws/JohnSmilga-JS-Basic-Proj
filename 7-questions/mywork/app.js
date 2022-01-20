@@ -1,9 +1,10 @@
 //using selectors inside the element
-const questions = document.querySelector(".question");
+const questions = document.querySelectorAll(".question");
+console.log(questions);
 
-questions.array.forEach(function (question){
+questions.forEach(function (question){
   const btn = question.querySelector(".question-btn");
-  //console.log(btn);
+  console.log(btn);
 
   btn.addEventListener("click", function(){
     console.log(question);
