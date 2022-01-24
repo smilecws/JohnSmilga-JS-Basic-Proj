@@ -7,6 +7,8 @@ const btns = document.querySelectorAll('.btn');
 // document.querySelector('.btn') = <button class="btn decrease">decrease</button> ;;; seaerch only one
 // const btns = document.querySelectorAll('.btn');
 // return NodeList(3) [button.btn.decrease, button.btn.reset, button.btn.increase]
+console.log(value)
+console.log(btns)
 btns.forEach(function(btn){
   // forEach() calls a function for each element in an array
   btn.addEventListener('click', function(e){
